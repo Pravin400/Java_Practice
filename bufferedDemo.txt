@@ -1,0 +1,2 @@
+Line 1: Buffered I/O example
+Line 2: Faster reading/writing

@@ -8,7 +8,7 @@ public class CreateFileDemo {
         try {
             File file = new File("sample.txt");//relative path
             if(file.createNewFile()){
-                System.out.println("File created "+file.getName()+" successfully At Location : "+file.getAbsolutePath());
+                System.out.println("File created '"+file.getName()+"' successfully At Location : "+file.getAbsolutePath());
             }else {
                 System.out.println("File already exists at : "+file.getAbsolutePath());
             }

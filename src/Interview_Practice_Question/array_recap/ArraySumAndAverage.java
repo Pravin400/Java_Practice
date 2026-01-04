@@ -25,10 +25,15 @@ public class ArraySumAndAverage {
         printArray(arr);
     }
     public static void printArray(int[] arr){
+        System.out.print("[");
         for(int i=0;i<arr.length;i++){
 
-            System.out.print(arr[i]+" ");
+            System.out.print(arr[i]);
+            if(i!=arr.length-1){
+                System.out.print(", ");
+            }
         }
+        System.out.println("]");
     }
     public static int arraySum(int[] arr){
         int sum = 0;
@@ -39,10 +44,10 @@ public class ArraySumAndAverage {
         }
         return sum;
     }
-    public static int arrayAverage(int[] arr){
+    public static double arrayAverage(int[] arr){
         if (arr.length == 0) return 0;
 
-        int average = arraySum(arr)/arr.length;
+        double average = arraySum(arr)/arr.length;
         return average;
     }
 }

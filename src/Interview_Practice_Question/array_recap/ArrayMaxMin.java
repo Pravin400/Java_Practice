@@ -11,8 +11,8 @@ public class ArrayMaxMin {
         System.out.println("Enter the input for array elements");
         for(int i=0;i<arr.length;i++){
             if (arr.length == 0){
-                System.out.println("array size is 0 elements cannot be inserted");
-                break;
+                System.out.println("array size is 0 elements cannot be inserted (Array is empty)");
+                return;
             }
             arr[i]=sc.nextInt();
         }

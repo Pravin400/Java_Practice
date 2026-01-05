@@ -47,7 +47,7 @@ public class ArraySumAndAverage {
     public static double arrayAverage(int[] arr){
         if (arr.length == 0) return 0;
 
-        double average = arraySum(arr)/arr.length;
+        double average = (double) arraySum(arr)/arr.length;
         return average;
     }
 }

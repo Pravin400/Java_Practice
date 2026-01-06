@@ -13,7 +13,8 @@ public class WordCounter {
 
 //        String [] words = str.split(" "); this can only skips only one space if sentence consists of more than one space still skips one space
         String [] words = str.split("[\\s+]");
+        System.out.println("length of string are : "+str.length());
         System.out.println("Original sentence is : '"+str+"'");
-        System.out.println("Sentence World Count is : "+words.length);
+        System.out.println("World Count in sentence is : "+words.length);
     }
 }

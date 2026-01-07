@@ -20,7 +20,7 @@ public class RemoveDuplicateCharacterBooleanArray {
                 result.append(ch);
             }
         }
-        System.out.println("String After REmoving Duplicates : '"+result+"'");
+        System.out.println("String After Removing Duplicates : '"+result+"'");
 
     }
 }

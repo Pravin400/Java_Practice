@@ -1,4 +1,4 @@
-package Interview_Practice_Question.String_Questions;
+package Interview_Practice_Question.String_Questions.Mid_to_High_String;
 
 import java.util.Scanner;
 
